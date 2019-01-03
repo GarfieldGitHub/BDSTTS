@@ -14,10 +14,6 @@ Pod::Spec.new do |s|
   lib.source_files = "BDSClientHeaders/*.h"
   lib.libraries = 'iconv.2.4.0'
   end
-  
-  s.subspec "BDSClientResource" do |resource|
-  resource.resources = "BDSClientResource/*.dat"
-  end
 
   s.requires_arc = true
 
